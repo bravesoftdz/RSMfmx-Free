@@ -1,0 +1,86 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'RSM FMX Free'
+  ClientHeight = 351
+  ClientWidth = 596
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object statMain: TStatusBar
+    Position.Y = 329.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 596.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object tlbMain: TToolBar
+    Position.Y = 24.000000000000000000
+    Size.Width = 596.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object mnbrMain: TMenuBar
+    Size.Width = 596.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    object mniFile: TMenuItem
+      Text = 'File'
+      object mniOpenServerRoot: TMenuItem
+        Locked = True
+        Text = 'Open Server Root'
+      end
+      object mniOpenPluginsFolder: TMenuItem
+        Locked = True
+        Text = 'Open Plugins Folder'
+      end
+      object mniOpenConfigsFolder: TMenuItem
+        Locked = True
+        Text = 'Open Configs Folder'
+      end
+      object mniOpenLangFolder: TMenuItem
+        Locked = True
+        Text = 'Open Lang Folder'
+      end
+      object mniOpenDataFolder: TMenuItem
+        Locked = True
+        Text = 'Open Data Folder'
+      end
+      object mniSep: TMenuItem
+        Locked = True
+        Text = '-'
+      end
+      object mniExit: TMenuItem
+        Locked = True
+        Text = 'Exit'
+      end
+    end
+    object mniTheme: TMenuItem
+      Text = 'Theme'
+      object mniLightTheme: TMenuItem
+        Locked = True
+        Text = 'Light'
+      end
+      object mniDarkTheme: TMenuItem
+        Locked = True
+        Text = 'Dark'
+      end
+    end
+    object mniResources: TMenuItem
+      Text = 'Resources'
+      object mniResuMod: TMenuItem
+        Locked = True
+        Text = 'uMod (Free Plugins)'
+      end
+      object mniResChaosCode: TMenuItem
+        Locked = True
+        Text = 'Chaos Code (Paid Plugins)'
+      end
+      object mniResRustAdmin: TMenuItem
+        Locked = True
+        Text = 'Rust Admin (Rcon Tool)'
+      end
+    end
+  end
+end
