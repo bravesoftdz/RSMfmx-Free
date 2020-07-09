@@ -72,6 +72,7 @@ object frmMain: TfrmMain
       Size.Height = 24.000000000000000000
       Size.PlatformDefault = False
       Text = 'Start Server'
+      OnClick = btnStartServerClick
     end
     object btnSaveServerConfig: TButton
       Align = Left
@@ -177,6 +178,8 @@ object frmMain: TfrmMain
       StyleLookup = ''
       TabOrder = 0
       Text = 'Server Config'
+      ExplicitSize.cx = 92.000000000000000000
+      ExplicitSize.cy = 24.000000000000000000
       object lstServerConfig: TListBox
         Align = Client
         Size.Width = 600.000000000000000000
@@ -533,6 +536,8 @@ object frmMain: TfrmMain
       StyleLookup = ''
       TabOrder = 0
       Text = 'Installers'
+      ExplicitSize.cx = 67.000000000000000000
+      ExplicitSize.cy = 24.000000000000000000
       object layoutInstallersCentered: TLayout
         Align = Center
         Size.Width = 311.000000000000000000

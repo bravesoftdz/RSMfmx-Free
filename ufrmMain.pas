@@ -79,6 +79,7 @@ type
     lblAppVersion: TLabel;
     procedure mniDarkThemeClick(Sender: TObject);
     procedure mniLightThemeClick(Sender: TObject);
+    procedure btnStartServerClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -91,6 +92,11 @@ var
 implementation
 
 {$R *.fmx}
+
+procedure TfrmMain.btnStartServerClick(Sender: TObject);
+begin
+  ShowMessage('test');
+end;
 
 procedure TfrmMain.mniDarkThemeClick(Sender: TObject);
 begin
